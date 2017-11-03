@@ -20,8 +20,7 @@ This is a reimplementation of the paper **On Data-Driven Saak Transform** (https
 	- [x] One-stage Saak Transform
 	- [x] Multi-stage Saak Transform
 	- [x] Inverse Transform
-	- [ ] 
-	- [ceil model](# ceil model)
+
 - [Other Code] 
 	- [notebook] multi-stage_saak.ipynb
 	- [dataset I/O] datasets.py, utils.py
