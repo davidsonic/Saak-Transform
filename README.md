@@ -5,7 +5,7 @@ This is a reimplementation of the paper **On Data-Driven Saak Transform** (https
 ### Table of Content
 
 - [Dataset] ( Hand-written digits classification)
-	* [Mnist] ( train set: 60000, 28x28. We used the same with downloaded from http://yann.lecun.com/exdb/mnist/)
+	* [MNIST] ( train set: 60000, 28x28. We used the same with downloaded from http://yann.lecun.com/exdb/mnist/)
 
 - [Installation] (sklearn and Pytorch)
 	* [Sklearn Installation] Refer to http://scikit-learn.org/stable/install.html)

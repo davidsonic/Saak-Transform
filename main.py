@@ -80,7 +80,7 @@ def PCA_and_augment(data_in):
     comps=pca.components_
 
     # augment, DC component doesn't
-    comps_aug=[vec*(-1) for vec in comps[1:]]
+    comps_aug=[vec*(-1) for vec in comps[:-1]]
     comps_complete=np.vstack((comps,comps_aug))
     print 'PCA_and_augment comps_complete shape: {}'.format(comps_complete.shape)
     return comps_complete
