@@ -2,6 +2,19 @@
 
 This is a reimplementation of the paper **On Data-Driven Saak Transform** (https://arxiv.org/abs/1710.04176),  maintained by Jiali Duan and Yueru Chen.
 
+![png](pic/output_14_0.png)
+ psnr metric: 104.294772826
+
+![png](pic/output_14_2.png)
+psnr metric: 105.637763477
+
+![png](pic/output_14_4.png)
+ psnr metric: 105.513759179
+
+![png](pic/output_14_6.png)
+ psnr metric: 106.509034118
+
+
 ### Table of Content
 
 - [Dataset] ( Hand-written digits classification)
