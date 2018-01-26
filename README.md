@@ -33,8 +33,8 @@ psnr metric: 106.509034118
     * Command `python multi-stage_saak_v2.py`
 	* Forward Transform: `multi_stage_saak_trans`
 	* Inverse Transform: `toy_recon(outputs,filters)`
-	* Detailed params:  `
-
+	* Detailed params:
+```
 usage: multi-stage_saak_v2.py [-h] [--loadSize LOADSIZE]
                               [--train_batch_size TRAIN_BATCH_SIZE]
                               [--test_batch_size TEST_BATCH_SIZE]
@@ -58,7 +58,7 @@ optional arguments:
   --recStage RECSTAGE   Reconstruction start stage
   --visNum VISNUM       Number of visualizations
   --use_SP              Use S/P conversion
-`
+```
 
 - [To-do list]
 	- [x] One-stage Saak Transform
