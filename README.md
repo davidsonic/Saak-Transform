@@ -65,6 +65,10 @@ optional arguments:
 	- [x] Multi-stage Saak Transform
 	- [x] Inverse Transform
 	- [x] S/P Conversion (multi-stage_saak_v2.py)
+	```
+	An alternative view about the Cascade of kernel augmentation and ReLU operation
+	(5,-3) -> (5, 0, 0, 3)
+	```
 
 - [Other Code] 
 	- [notebook] multi-stage_saak_v2.ipynb
