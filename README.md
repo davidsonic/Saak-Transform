@@ -29,17 +29,45 @@ psnr metric: 106.509034118
 	* [Pytorch Installation] (Refer to http://pytorch.org)
 	* [Optional: Jupyter Notebook] (Refer to http://jupyter.org/install.html)
 
-- [How to] (Forward and Inverse Transform)
+- [How to] (Forward and Inverse Transform
+    * Command `python multi-stage_saak_v2.py`
 	* Forward Transform: `multi_stage_saak_trans`
 	* Inverse Transform: `toy_recon(outputs,filters)`
+	* Detailed params:  `
+
+usage: multi-stage_saak_v2.py [-h] [--loadSize LOADSIZE]
+                              [--train_batch_size TRAIN_BATCH_SIZE]
+                              [--test_batch_size TEST_BATCH_SIZE]
+                              [--size SIZE] [--windsize WINDSIZE]
+                              [--stride STRIDE] [--save_path SAVE_PATH]
+                              [--recStage RECSTAGE] [--visNum VISNUM]
+                              [--use_SP]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --loadSize LOADSIZE   Number of samples to be loaded
+  --train_batch_size TRAIN_BATCH_SIZE
+                        Batch size for loading
+  --test_batch_size TEST_BATCH_SIZE
+                        Batch size for loading
+  --size SIZE           Size of the input
+  --windsize WINDSIZE   Size of moving window
+  --stride STRIDE       Stride to take during convolution
+  --save_path SAVE_PATH
+                        Path to save result
+  --recStage RECSTAGE   Reconstruction start stage
+  --visNum VISNUM       Number of visualizations
+  --use_SP              Use S/P conversion
+`
 
 - [To-do list]
 	- [x] One-stage Saak Transform
 	- [x] Multi-stage Saak Transform
 	- [x] Inverse Transform
+	- [x] S/P Conversion (multi-stage_saak_v2.py)
 
 - [Other Code] 
-	- [notebook] multi-stage_saak.ipynb
+	- [notebook] multi-stage_saak_v2.ipynb
 	- [dataset I/O] datasets.py, utils.py
 
 - [Contact Me](#Contact-me)
