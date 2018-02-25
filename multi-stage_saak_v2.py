@@ -250,7 +250,7 @@ def show_sample(opt,ori,rec):
 def psnr(im1,im2):
     diff =(im1 - im2)
     diff=diff**2
-    rmse=np.sqrt(diff.sum())
+    rmse=np.sqrt(np.mean(diff.sum()))
     psnr = 20*np.log10(1/rmse)
     return psnr
 
